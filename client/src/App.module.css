@@ -1,0 +1,12 @@
+.App {
+    width: 100vw;
+    height: 150vh;
+    
+    
+    background-image: url(../src/assets/dogs.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}

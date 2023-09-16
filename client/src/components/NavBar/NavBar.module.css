@@ -1,0 +1,25 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(220, 216, 28);
+    border-radius: 15px;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 30px;
+
+}
+
+
+
+.link {
+    /* Estilos normales del enlace */
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+  }
+  
+  .link:hover {
+    /* Estilos cuando el enlace está en estado "hover" */
+    background-color: rgb(87, 195, 73);
+  }
+  

@@ -1,0 +1,28 @@
+.container {
+     display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+
+/* CardsContainer.module.css */
+.pagination {
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
